@@ -1,0 +1,33 @@
+h2 {
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: xx-large;
+  font: 'Canadara';
+  border-bottom: cadetblue 5px solid;
+
+}
+
+.eachmovie {
+  padding: 20px;
+  border: 1px solid black;
+  font-size: xx-large;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.p2-a {
+  padding: 2rem;
+}
+
+.p0-a {
+  padding: 0.5rem;
+}
+
+.m-rl {
+  margin: 0 20% 0 20%;
+}
+
+.p2-t {
+  margin: 10px;
+  padding: 10px;
+}
