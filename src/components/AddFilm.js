@@ -4,13 +4,13 @@ class AddFilm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      addedfilm: ''
+      searchValue: ''
     }
-    this.addMovie  = this.addMovie.bind(this);
+    this.addTexttoValue = this.addTexttoValue.bind(this);
   }
 
-  addMovie (){
-
+  addTexttoValue (e){
+    this.setState({ searchValue: e.target.value })
   }
 
   render() {
@@ -23,7 +23,7 @@ class AddFilm extends React.Component {
           type="text"
           placeholder="Add Film"
           value={this.state.searchValue}
-          onChange={this.handleSearch}
+          onChange={this.addTexttoValue}
         />
         <button
          className="p0-a"
